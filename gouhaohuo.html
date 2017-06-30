@@ -1,0 +1,962 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购好货</title>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/gouhaohuo.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header_left">
+        <a href=""></a>
+    </div>
+    <div class="header_right">
+        <div class="denglu">
+            <a href="">登录</a>
+            <span><img src="images/tiao.jpg" alt=""/></span>
+            <a href="">注册</a>
+        </div>
+        <div class="fangshi">
+            <a href="" class="qq">QQ登录</a>
+            <a href="" class="xinlang">新浪微博</a>
+        </div>
+    </div>
+</div>
+<!--header-->
+<!--nav-->
+<div class="nav">
+    <div class="hcent">
+        <div class="hcent_left">
+            <ul style="font-size: 14px">
+                <li><a href="index.html"><span>首页</span></a></li>
+                <li class="xt">
+                    <a href="caipu.html">
+                        <span>菜谱</span>
+                        <a href="" class="sanjiao"></a>
+                    </a>
+                    <div class="dingwei">
+                        <div class="top"></div>
+                        <div class="zuopin">
+                            <div class="baisanjiao"></div>
+                            <div class="jingxuan">
+                                <a href="caipu.html"><span class="jx"></span>精选</a>
+                                <a href=""><span class="zp"></span>作品</a>
+                                <a href=""><span class="cd"></span>菜单</a>
+                                <a href=""><span class="ph"></span>排行榜</a>
+                            </div>
+                            <div class="zuihou">
+                                <div class="huise">
+                                    <a href="">食材</a>
+                                </div>
+                                <div class="xijie">
+                                    <a href="">猪肉</a>
+                                    <a href="">羊肉</a>
+                                    <a href="">鸡肉</a>
+                                    <a href="">牛肉</a>
+                                    <a href="">鱼</a>
+                                    <a href="">蔬菜</a>
+                                    <a href="">鲜果</a>
+                                    <a href="">虾</a>
+                                    <a href="">杂粮</a>
+                                    <a href="">更多>></a>
+                                </div>
+                            </div>
+                            <div class="zuihou">
+                                <div class="huise">
+                                    <a href="">分类</a>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>菜式</span>
+                                    <div class="xiangxi">
+                                        <a href="">家常菜</a>
+                                        <a href="">下饭菜</a>
+                                        <a href="">甜品</a>
+                                        <a href="">肉类</a>
+                                        <a href="">主食</a>
+                                        <a href="">私家菜</a>
+                                        <a href="">凉菜</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>烘培</span>
+                                    <div class="xiangxi">
+                                        <a href="">面包</a>
+                                        <a href="">饼干</a>
+                                        <a href="">戚风蛋糕</a>
+                                        <a href="">泡芙</a>
+                                        <a href="">蛋糕卷</a>
+                                        <a href="">杯子蛋糕</a>
+                                        <a href="">芝士蛋糕</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>功效</span>
+                                    <div class="xiangxi">
+                                        <a href="">补硒食谱</a>
+                                        <a href="">补钙食谱</a>
+                                        <a href="">补锌食谱</a>
+                                        <a href="">补铁食谱</a>
+                                        <a href="">补碘食谱</a>
+                                        <a href="">对抗雾霾</a>
+                                        <a href="">防辐射</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>场景</span>
+                                    <div class="xiangxi">
+                                        <a href="">早餐食谱</a>
+                                        <a href="">午餐</a>
+                                        <a href="">下午茶</a>
+                                        <a href="">晚餐</a>
+                                        <a href="">宵夜</a>
+                                        <a href="">单身食谱</a>
+                                        <a href="">二人世界</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="dibu"><a href="">查看全部分类</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="xieshipai.html"><span>写食派</span></a>
+                </li>
+                <li><a href="gouhaohuo.html"><span class="dangqianye">购好货</span></a>
+                    <div class="Hot"></div></li>
+                <li><a href="zhutizhan.html"><span>主题站</span></a></li>
+                <li style="border: 0"><a href="huodong.html"><span>活动</span></a></li>
+            </ul>
+        </div>
+        <div class="hcent_center">
+            <input type="text" value="搜索菜谱、菜单、食材、用户" class="wenben" style="border-right: 0" onfocus="if(this.value =='搜索菜谱、菜单、食材、用户') this.value ='';"onblur="if(this.value =='') this.value ='搜索菜谱、菜单、食材、用户';"/>
+            <input type="button" class="anniu"/>
+        </div>
+        <div class="hcent_right">
+            <a href="">发布</a>
+            <div class="fabu" style="display: none">
+                <span></span>
+                <p>
+                    <a href="">发布菜单</a>
+                    <a href="">创建菜单</a>
+                    <a href="">上传美食日记</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--nav-->
+<!--main-->
+<div class="main">
+    <div class="main_top">
+        <div class="top_left">
+            <a href="">
+                <img src="images/1454579537.jpg">
+            </a>
+        </div>
+        <div class="top_right mb10">
+            <a href="">
+                <img src="images/1454579568.jpg">
+            </a>
+        </div>
+        <div class="top_right">
+            <a href="">
+                <img src="images/1454579586.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="main_bottom">
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_a7052b500792808465fb77ee2a339ed3.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>88</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>辣妈私厨 招牌麻辣火爆鱿鱼须150g </h3>
+                </a>
+                <div class="jiage">
+                    <span>￥25.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 664 袋</div>
+            <div class="yunfei">运费(￥)：5</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_99fbb6faf255143cf6e7808684d129e1.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>76</span>瓶</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>德昌源 桥牌 原汁豆腐乳360克 土坛发酵 无防腐剂</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥10.90</span>
+                    <del>¥18.80 </del>
+                </div>
+            </div>
+            <div class="yueshou">月售 46 瓶</div>
+            <div class="yunfei">运费(￥)：6</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_02c29513875cb22fe55bf1a19bf82acf.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>73</span>件</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>果郡王 四川蒲江青见柑橘8斤装 新鲜水果</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥50.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 77 件</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_acc1bf81c2ed8611d94818e348f06007.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>13</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>连续三年入选米其林韩餐 韩国风味 bibigo 参鸡...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥59.00</span>
+                    <del>¥79.00 </del>
+                </div>
+            </div>
+            <div class="yueshou">月售 5 袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_9333640d14a7a5d5462e779a9c189bda.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>28</span>瓶</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>四川黄龙溪特产 龙号 【香辣牛肉酱】 400g 土坛...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥19.90</span>
+                    <del>¥29.90</del>
+                </div>
+            </div>
+            <div class="yueshou">月售 167 瓶</div>
+            <div class="yunfei">运费(￥)：6</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_402678c806171c401844ee32451068c6.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>56</span>件</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>果郡王 越南进口芒果5斤装 新鲜芒果</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥28.80</span>
+                    <del>¥49.00 </del>
+                </div>
+            </div>
+            <div class="yueshou">月售 76 件</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_a45cecf321e1ea58a4da163d60e0c554.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>73</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>趣味亲子种植盒，家中观赏植物园，自己种植猴头菇，好胃...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥68.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 297 盒</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_e08b075040af70b70e1e0b5b884e0012.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>116</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【清仓 限100盒】舌尖上Honey 原生态新疆黑蜂...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥58.00</span>
+                    <del>¥108.00 </del>
+                </div>
+            </div>
+            <div class="yueshou">月售 76 盒</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_85b505cf07f991d8a484b3e8a5f6e0f9.jpg">
+                </a>
+                <div class="shengyu"><a href=""><span>已售空</span></a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【感恩特惠】小尾羊 羊肉卷1000g内蒙古鲜羊肉羔羊...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥99.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 99 份</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_b8a98faca87696b0a6bea41460f6d684.jpg">
+                </a>
+                <div class="shengyu"><a href=""><span>已售空</span></a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>靓禾良仓 2016年新米东北五常稻花香米5斤真空装</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥49.00</span>
+                    <del>¥69.00 </del>
+                </div>
+            </div>
+            <div class="yueshou">月售 469 件</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_82fd3881172abb4a1042e7ff913d8d89.jpg">
+                </a>
+                <div class="shengyu"><a href=""><span>已售空</span></a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>新良易小焙蛋糕粉260g*3袋 进口麦源 </h3>
+                </a>
+                <div class="jiage">
+                    <span>￥12.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 419 袋</div>
+            <div class="yunfei">运费(￥)：25</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_69bec1df360897b32f31c96229781e1e.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>37</span>瓶</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>德昌源 桥牌 红油豆腐乳 260克 土坛发酵 无防腐...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥10.90</span>
+                    <del>¥18.80 </del>
+                </div>
+            </div>
+            <div class="yueshou">月售 39 瓶</div>
+            <div class="yunfei">运费(￥)：6</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_547be140da989ae76383008309eb3e68.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>16</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【正宗五常】靓禾良仓 2016年新米 精品稻花香5斤...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥75.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 224 袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_583120b8b13085724adb6d7a0b55943b.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>18</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>新良 藜麦全谷粉400g</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥61.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 75 盒</div>
+            <div class="yunfei">运费(￥)：25</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_8d02955e7e5c4d616fce3c533e6aaffa.jpg">
+                </a>
+                <div class="shengyu"><a href=""><span>已售空</span></a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【豆果明星商品】家庭菲力牛排套餐8份装 配黄油 黑椒...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥108.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 6080 份</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_be46aed1987d2dfe15753633f46380b8.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>394</span>套</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【礼盒装】戈莱斯坚果礼盒920g（开心果，腰果，扁桃...</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥238.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 8 套</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_5f8c8d84f1332da314f739dcd403f93a.jpg">
+                </a>
+                <div class="shengyu"><a href=""><span>已售空</span></a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>小鸡啄米 东北稻花香大米2.5kg 包邮 2016新米</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥39.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 2463袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_3979da619c3930a78ad39e6cb292c376.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>73</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>趁枣 若羌灰枣 1.5kg 经典布袋装（750g/袋*2袋）红枣上品</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥155.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 90袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_9e77286144321bf71cc8866f9b18911e.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2</span>件</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>四大当家水饺礼盒-船歌鱼水饺-430gX4袋</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥259.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 869件</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_cf55be57418ddc17516512ac6c091334.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>43</span>口</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>美国康宁 晶彩透明玻璃锅 明火直烧2.25L 一锅多用</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥289.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 87口</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_87926910d194560b72017fbe98e9d02e.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>29</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>鲜动生活 越南进口巴沙鱼柳2.2kg礼盒装  无骨无刺 生鲜食材</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥128.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 79盒</div>
+            <div class="yunfei">运费(￥)：25</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_862fd10e5933563cc074da666bcefd7a.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>82</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>韩国M&F山野每日混合坚果礼盒装 30袋装儿童孕妇无糖无盐零食果脯西梅</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥159.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 24盒</div>
+            <div class="yunfei">运费(￥)：20</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_dc357d53d257b5864b2aaf6014ebf387.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>29</span>套</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【潮汕特产】丸子妹 14款潮汕火锅肉丸礼盒套装</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥158.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 544套</div>
+            <div class="yunfei">运费(￥)：13</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_cb229d8531ca881e32080a21804ce984.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>336</span>份</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>西厨贝可 澳洲菲力牛排10片装 1500g 含黑椒黄油刀叉</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥99.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 429份</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_7cbd236f9a52140974c4517ae641997e.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>892</span>份</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>西厨贝可 儿童牛排10片1200g  澳洲牛肉 含黑椒黄油刀叉 </h3>
+                </a>
+                <div class="jiage">
+                    <span>￥89.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 292份</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_3fa415c3f7f339af26f465e3b4faec74.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>297</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>北大荒嗨厨房 响水大米 2.5kg</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥49.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 22袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_85569de8928f28739de0652287f65fb7.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>279</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>寿桃 至尊xo酱鲍鱼面带橄榄油酱包 礼盒装 香港品牌</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥79.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 14盒</div>
+            <div class="yunfei">运费(￥)：15</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_6ab9314871d95e4d779204a79252c733.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2687</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>北大荒嗨厨房 阿根廷红虾L1 2kg/约30-40只</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥158.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 0盒</div>
+            <div class="yunfei">运费(￥)：15</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_23fb8d6e84975025de2fed78e492f2e0.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2879</span>罐</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【上海美味】丰收蟹庄 秘制醉蟹500g QS产品 无添加</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥200.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 36罐</div>
+            <div class="yunfei">运费(￥)：200</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_fd0ea0ccf837fa4038d8882cb76cafb0.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2</span>件</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>东北烤冷面450g 还原东北街边小吃（5张面饼+酱包+料包）</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥19.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 3727件</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_fdddef1d823008054556933da5ac1c1c.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>751</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【两仓发货 买4减5】靓禾良仓 2016新米正宗东北大米五常长粒香5斤真空装</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥25.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 4217袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_9fd4d9dffd81310532c007c86e124cda.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>247</span>份</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>澳洲进口西冷牛排  高级餐厅专用牛排 150g/片 6片装【临期】</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥89.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 201份</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_67f122c2449027252d39e30961f4ce30.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>122</span>包</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>泰国 安来利 绿咖喱+马沙文咖喱+红咖喱酱汁 250ml/袋*3袋 泰国人气咖喱酱</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥69.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 333包</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_88450c64c070d3688ca01416fdfc7eb1.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2123</span>盒</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【绿漫天】 蘑菇亲子种植盒 换种方式吃蘑菇（含平菇种植芯2块）</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥39.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 2176盒</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_1810e2c736fe6d865cc5b338d4baa7ee.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2214</span>瓶</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>古蜀味道 秘制蒜蓉酱（拍下现制） 350g</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥16.80</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 2083瓶</div>
+            <div class="yunfei">运费(￥)：8</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_fc6b862fa101f2df13a92790cf61cbc4.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>223</span>套</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【新品上市】北御粮仓 朝鲜辣白菜300g*2袋</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥35.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 454套</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_580aad58b128606e565cd710198bfca8.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>2213</span>份</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>云上会 纸上烤鱼 1.8KG 川渝麻辣风味</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥148.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 7份</div>
+            <div class="yunfei">运费(￥)：15</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_75b53c6f534051dd8154ed8b1ead9196.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>124</span>份</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>大西冷 牛腩肉块1000g 圆通包邮</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥79.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 420份</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_42deb65a8431da4cde41e91613b0628f.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>4987</span>袋</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>重庆刘一手 红油、珍品、清油火锅底料 300gX3包</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥49.90</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 79袋</div>
+            <div class="yunfei">包邮</div>
+        </div>
+        <div class="xijie">
+            <div class="tupian">
+                <a href="">
+                    <img src="images/448_40fb881c92b9a456b06628516c9ae04f.jpg">
+                </a>
+                <div class="shengyu"><a href="">剩余<span>523</span>台</a></div>
+            </div>
+            <div class="xinxi">
+                <a href="">
+                    <h3>【宅家吃火锅】利仁DHG-T2600F韩式多功能电火锅</h3>
+                </a>
+                <div class="jiage">
+                    <span>￥179.00</span>
+                    <del></del>
+                </div>
+            </div>
+            <div class="yueshou">月售 457台</div>
+            <div class="yunfei">包邮</div>
+        </div>
+    </div>
+</div>
+<!--main-->
+<!--footer-->
+<div class="footer">
+    <div class="guanyu">
+        <a href="">关于豆果</a>
+        ·
+        <a href="">在豆果工作</a>
+        ·
+        <a href="">意见反馈</a>
+        ·
+        <a href="">友情链接</a>
+        ·
+        <a href="">菜谱大全</a>
+    </div>
+    <div class="xinxi">
+        ©2009-2017
+        <a href="">北京豆果信息技术有限公司</a>
+        <a href="">京ICP证111032号</a>
+        京公网安备11010102001133号 京网文[2014]0774-174号 食品流通许可证SP1101061510252413
+    </div>
+</div>
+<!--footer-->
+</body>
+</html>

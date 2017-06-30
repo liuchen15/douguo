@@ -1,0 +1,286 @@
+.main{
+    margin: 30px auto 0;
+    width: 940px;
+    overflow: hidden;
+}
+.main .chengshi{
+    background-color: #f4f0ec;
+    height: 30px;
+    padding-top: 15px;
+    width: 940px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.main .chengshi ul{
+    float: left;
+    font-size: 14px;
+    height: 15px;
+    margin: 0;
+    width: 550px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.main .chengshi ul li{
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-right: 1px dotted #d5d5c4;
+}
+.main .chengshi li a{
+    display: block;
+    height: 15px;
+    margin: 0 14px;
+}
+.main .chengshi li a:hover{
+    text-decoration: underline;
+    color:#eb585c;
+}
+.main .chengshi .weizhi{
+    color: #999;
+    float: right;
+    height: 15px;
+    padding-right: 10px;
+    text-align: right;
+    width: 200px;
+    margin-right: 20px;
+}
+.main .shenbian .fameishi{
+    right:0;
+    top:20px;
+    position: absolute;
+    font-size: 14px;
+}
+.main .shenbian{
+    padding-top: 8px;
+    text-align: center;
+    width: 940px;
+    position:relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.main .shenbian h4{
+    font: 24px "Î¢ÈíÑÅºÚ","YaHei",Arial,Helvetica,sans-serif;
+    height: 34px;
+}
+.main .shenbian .fameishi a:hover{
+    text-decoration: underline;
+    color:#eb585c;
+}
+.main .meishi{
+    width: 940px;
+    margin-bottom: 40px;
+}
+.main .meishi ul{
+    overflow: hidden;
+    width: 940px;
+}
+.main .meishi ul li{
+    float: left;
+    height: 180px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+    margin-right: 10px;
+}
+.main .meishi ul li img{
+    height: 180px;
+    width: 180px;
+}
+.main .meishi .xiangxi{
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    cursor: pointer;
+    height: 180px;
+    left: 0;
+    position: absolute;
+    width: 180px;
+    bottom: -180px;
+}
+.main .meishi .xiangxi .mingzi{
+    height: 20px;
+    line-height: 20px;
+    margin: 68px 5px 8px;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+}
+.main .meishi .xiangxi .didian{
+    color: rgb(107, 85, 63);
+    line-height: 150%;
+    padding: 0 10px;
+    text-align: center;
+    width: 160px;
+    display: block;
+}
+.main .meishi .xiangxi .hongbiao{
+    background: transparent url("../images/bg_diet.png") no-repeat scroll 0 -38px;
+    display: inline-block;
+    height: 22px;
+    vertical-align: middle;
+    width: 16px;
+}
+.main .meishi .xiangxi .damuzhi{
+    bottom: 10px;
+    color: rgb(153, 153, 153);
+    left: 10px;
+    position: absolute;
+}
+.main .meishi .xiangxi .muzhi{
+    background: transparent url("../images/bg_diet.png") no-repeat scroll right 0;
+    display: inline-block;
+    height: 13px;
+    width: 14px;
+}
+.main .meishi .xiangxi .weibu{
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+    color: black;
+}
+.main .tuijian{
+    float: left;
+    width: 600px;
+    overflow: hidden;
+}
+.main .tuijian h2{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.main .tuijian h2 .gengduo{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.main .tuijian h2 .gengduo a:hover{
+    text-decoration: underline;
+    color:#eb585c;
+}
+.main .tuijian .dianpu{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border: 1px solid rgb(236, 235, 234);
+    margin-bottom: 30px;
+    padding: 16px 0 20px 16px;
+    width: 584px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.main .tuijian .dianpu h3 a:hover{
+    text-decoration: underline;
+    color:#eb585c;
+}
+.main .tuijian .dianpu h3{
+    float: left;
+    font-size: 14px;
+    width: 584px;
+    margin-bottom: 10px;
+}
+.main .tuijian .dianpu p{
+    color: rgb(51, 51, 51);
+    float: left;
+    line-height: 15px;
+    padding-bottom: 10px;
+    width: 574px;
+}
+.main .tuijian .dianpu .liyou{
+    color: rgb(153, 153, 153) !important;
+}
+.main .tuijian .dianpu .jiage{
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+}
+.main .tuijian .dianpu .caidan{
+    float: left;
+    height: 100px;
+    margin-right: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 136px;
+}
+.main .tuijian .dianpu .caidan img{
+    width: 136px;
+}
+.main .tuijian .dianpu .caidan .mingcheng{
+    background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 136px;
+    color: black;
+}
+.main .remen .canting{
+    width: 300px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.main .remen{
+    width: 300px;
+    margin-bottom: 35px;
+    float: right;
+}
+.main .remen h2{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.main .remen .menmian{
+    float: left;
+    height: 160px;
+    margin-bottom: 20px;
+    width: 144px;
+    margin-right: 12px;
+}
+.main .remen .menmian h4{
+    float: left;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90px;
+}
+.main .remen .menmian span{
+    color: rgb(153, 153, 153);
+    display: block;
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    width: 50px;
+}
+.main .remen .menmian h4 a:hover{
+    text-decoration: underline;
+    color:#eb585c;
+}
+.main .erweima{
+    background: transparent url("../images/rijma.jpg") no-repeat scroll 0 0;
+    float: left;
+    height: 210px;
+    margin-right: 480px;
+    position: fixed;
+    right: 50%;
+    top: 140px;
+    width: 160px;
+    z-index: 9;
+}
+.main .erweima span{
+    height: 26px;
+    line-height: 26px;
+    padding: 6px 0 0 16px;
+}
+.main .erweima .shanchu{
+    display: inline-block;
+    height: 26px;
+    width: 30px;
+    color: black;
+    cursor: pointer;
+}
+.main .erweima .tuxing{
+    display: block;
+    height: 170px;
+    width: 158px;
+}

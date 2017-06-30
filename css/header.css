@@ -1,0 +1,447 @@
+/*页面初始化*/
+body,div,ul,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(18, 147, 124);
+}
+body{
+    background: rgb(248, 248, 247) none repeat scroll 0 0;
+}
+.clear{
+    clear: both;
+}
+/*页面初始化*/
+/*header*/
+.header{
+    width: 940px;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.header .header_left{
+    float: left;
+    width: 111px;
+    height: 40px;
+    overflow: hidden;
+}
+.header .header_left a{
+    display: inline-block;
+    width: 111px;
+    height: 40px;
+    background: url("../images/new_logo.png") no-repeat;
+}
+.header .header_right{
+    float: right;
+    width: 263px;
+    height: 40px;
+    overflow: hidden;
+}
+.header .header_right .denglu{
+    overflow: hidden;
+    margin-right: 20px;
+    width: 63px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.header .header_right .denglu a{
+    color: #12937c;
+}
+.header .header_right .denglu a:hover{
+    text-decoration: underline;
+    color: #ed585c;
+}
+.header .header_right .denglu span{
+    padding: 0 3px;
+    width: 5px;
+}
+.header .header_right .fangshi{
+    width: 180px;
+    height: 50px;
+    float: right;
+    overflow: hidden;
+    margin: 5px 0 0;
+}
+.header .header_right .fangshi .qq{
+    background: rgb(124, 194, 215) url("../images/is_qq.png") no-repeat scroll 15px 6px;
+    color: rgb(255, 255, 255);
+}
+.header .header_right .fangshi .qq:hover {
+    background-color: rgb(82, 162, 186);
+    text-decoration: none; color: rgb(255, 255, 255);
+}
+.header .header_right .fangshi .xinlang{
+    background: rgb(241, 90, 95) url("../images/is_sina.png") no-repeat scroll 11px 7px;
+    color: rgb(255, 255, 255);
+}
+.header .header_right .fangshi .xinlang:hover {
+    background-color: rgb(209, 75, 80);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header .header_right .fangshi a{
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 26px;
+    line-height: 24px;
+    text-indent: 33px;
+    vertical-align: middle;
+    width: 90px;
+}
+/*header*/
+/*nav*/
+.nav{
+    background-color: rgb(218, 234, 232);
+    height: 60px;
+    width: 100%;
+}
+.nav .hcent{
+    height: 60px;
+    margin: 0 auto;
+    width: 940px;
+}
+.nav .hcent .hcent_left{
+    float: left;
+    height: 30px;
+    margin: 22px 0 0;
+    width: 600px;
+}
+.nav .hcent .hcent_left ul{
+    float: left;
+    height: 30px;
+    margin-left: -9px;
+    width: 608px;
+}
+.nav .hcent .hcent_left li a{
+    color: #12937c;
+    text-decoration: none;
+}
+.nav .hcent .hcent_left li span{
+    color: #12937c;
+    display: block;
+    font-weight: bold;
+    padding: 0 14px;
+    text-decoration: none;
+    width: auto;
+}
+.nav .hcent .hcent_left .dingwei{
+    left: -68px;
+    position: absolute;
+    top: 13px;
+    width: 366px;
+    z-index: 9999;
+    display: none;
+}
+.nav .hcent .hcent_left .dingwei .top{
+    width: 366px;
+    height: 25px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    box-shadow: 0 1px 3px rgba(100, 100, 100, 0.2);
+    font-size: 12px;
+    padding: 0;
+    width: 366px;
+    z-index: 9999;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .baisanjiao{
+    border-color: transparent transparent rgb(255, 255, 255);
+    border-style: dashed dashed solid;
+    border-width: 10px;
+    font-size: 0;
+    height: 0;
+    position: absolute;
+    right: 252px;
+    top: 6px;
+    width: 0;
+    z-index: 10;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 38px;
+    padding: 16px 0 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan a{
+    color: rgb(18, 147, 124);
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 3px 0 3px 20px;
+    text-align: left;
+    width: 68px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan a:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline!important;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan .jx{
+    background: transparent url("../images/ic_zcp_001.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 24px;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 16px;
+    padding: 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan .zp{
+    background: transparent url("../images/ic_zcp_001.png") no-repeat scroll 0 -30px;
+    display: inline-block;
+    height: 24px;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 16px;
+    padding: 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan .cd{
+    background: transparent url("../images/ic_zcp_001.png") no-repeat scroll 0 -60px;
+    display: inline-block;
+    height: 24px;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 16px;
+    padding: 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .jingxuan .ph{
+    background: transparent url("../images/ic_zcp_001.png") no-repeat scroll 0 -90px;
+    display: inline-block;
+    height: 24px;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 16px;
+    padding: 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou{
+    clear: both;
+    display: block;
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .huise{
+    background: rgb(241, 241, 241) none repeat scroll 0 0;
+    height: 38px;
+    line-height: 36px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .huise a{
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: left;
+    width: 38px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .huise a:hover{
+    text-decoration: underline!important;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .xijie{
+    clear: both;
+    content: ".";
+    display: block;
+    padding: 12px 0 8px;
+    height: 52px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .xijie a:hover{
+    text-decoration: underline!important;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .xijie a{
+    color: rgb(18, 147, 124);
+    float: left;
+    overflow: hidden;
+    padding: 0 0 10px 26px;
+    text-align: left;
+    width: 42px;
+    line-height: 16px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .zhongjian{
+    clear: both;
+    content: ".";
+    display: block;
+    padding: 12px 0 8px;
+    height: 52px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .zhongjian span{
+    color: rgb(102, 102, 102);
+    float: left;
+    padding-left: 24px;
+    width: 38px
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .zhongjian .xiangxi{
+    float: left;
+    width: 284px;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .zhongjian .xiangxi a{
+    line-height: 16px;
+    padding: 0 0 6px 20px;
+    width: 51px;
+    color: rgb(18, 147, 124);
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .zhongjian a:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline!important;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .dibu{
+    background: rgb(241, 241, 241) none repeat scroll 0 0;
+    padding: 12px 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .dibu a{
+    color: rgb(18, 147, 124);
+    font-size: 14px;
+    padding-left: 0;
+}
+.nav .hcent .hcent_left .dingwei .zuopin .zuihou .dibu a:hover{
+    text-decoration: underline!important;
+}
+.nav .hcent .hcent_left li{
+    float: left;
+    height: 17px;
+    line-height: 16px;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    z-index: 999;
+    border-right: 1px dotted #6fbfb1;
+}
+.nav .hcent .hcent_left .Hot{
+    background: transparent url("../images/nemico.png") no-repeat scroll 0 -56px;
+    height: 12px;
+    position: absolute;
+    right: -1px;
+    top: -8px;
+    width: 22px;
+}
+.nav .hcent .hcent_left li .dangqianye{
+    background-color: #12937c;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-top: -7px;
+    padding: 7px 14px;
+    !important;
+}
+.sanjiao{
+    border-color: #12937c transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 0;
+    z-index: 10;
+}
+.bsanjiao{
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    top: 5px;
+    width: 0;
+    z-index: 10;
+    border-color: #fff transparent transparent !important;
+    right: 10px;
+}
+.nav .hcent .hcent_center{
+    margin-top: 15px;
+    float: left;
+    overflow: hidden;
+    height: 30px;
+}
+.nav .hcent .hcent_center .wenben{
+    width: 178px;
+    height: 18px;
+    padding: 5px 0 5px 10px;
+    border: 1px solid;
+    color: rgb(153, 153, 153);
+    line-height: 18px;
+    border-color: gainsboro;
+    float: left;
+}
+.nav .hcent .hcent_center .anniu{
+    background: transparent url("../images/bg_head.png") no-repeat scroll left -52px;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-left: -3px;
+}
+.nav .hcent .hcent_center .anniu:hover{
+    background-position: left -93px;
+}
+.nav .hcent .hcent_right{
+    background-color: rgb(111, 191, 177);
+    float: right;
+    height: 30px;
+    margin: 15px 0 0 10px;
+    position: relative;
+    width: 90px;
+}
+.nav .hcent .hcent_right>a{
+    background: transparent url("../images/nemico.png") no-repeat scroll 20px -96px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 0 0 39px;
+    text-decoration: none;
+    width: 46px;
+}
+.nav .hcent .hcent_right .fabu{
+    background-color: rgb(234, 234, 226);
+    box-shadow: 0 1px 3px rgba(100, 100, 100, 0.3);
+    left: -5px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: left;
+    top: 36px;
+    width: 95px;
+    z-index: 999;
+    height: 75px;
+}
+.nav .hcent .hcent_right .fabu span{
+    background: transparent url("../images/bg_head_001.png") no-repeat scroll 23px -176px;
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 95px;
+}
+.nav .hcent .hcent_right .fabu a{
+    clear:both;
+    display: block;
+    line-height: 25px;
+    overflow: hidden;
+    padding-left: 10px;
+    color: rgb(18, 147, 124);
+}
+.nav .hcent .hcent_right .fabu a:hover{
+    color: red;
+    background-color: rgb(242,242,238);
+}
+/*nav*/

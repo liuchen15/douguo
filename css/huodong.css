@@ -1,0 +1,134 @@
+.main{
+    margin: 30px auto 0;
+    width: 940px;
+    overflow: hidden;
+}
+.main .main_left{
+    float: left;
+    width: 600px;
+}
+.main .main_left .left_top{
+    background-color: #fff;
+    border: 1px solid #edeceb;
+    overflow: hidden;
+    padding-top: 15px;
+    width: 600px;
+}
+.main .main_left .left_top .xijie{
+    float: left;
+    margin: 0 15px 30px;
+    position: relative;
+    width: 270px;
+}
+.main .main_left .left_top .xijie .tupian{
+    float: left;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 270px;
+    position: relative;
+}
+.main .main_left .left_top .xijie .tupian .jiesu{
+    background: rgba(0, 0, 0, 0) url("../images/ico_yjs2.png") no-repeat scroll 0 0;
+    height: 42px;
+    position: absolute;
+    right: 10px;
+    top: -1px;
+    width: 66px;
+}
+.main .main_left .left_top .xijie .tupian img{
+    display: block;
+    width: 270px;
+}
+.main .main_left .left_top .wenzi{
+    background-color: #f8f8f7;
+    float: left;
+    height: 70px;
+    padding: 11px 0 11px 20px;
+    width: 250px;
+}
+.main .main_left .left_top .wenzi h3{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 160%;
+    margin-bottom: 6px;
+    width: 250px;
+}
+.main .main_left .left_top .wenzi span{
+    width: 250px;
+    display: block;
+    line-height: 180%;
+    color: #999;
+}
+.main .main_left .left_top .xuxian{
+    border-top: 1px dotted #e5e5e5;
+    float: left;
+    height: 1px;
+    margin: 0 0 29px 15px;
+    width: 570px;
+}
+.main .yeshu{
+    height: 30px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.main .yeshu ul{
+    height: 30px;
+    text-align: center;
+    width: 100%;
+}
+.main .yeshu .juzhong{
+    width: 300px;
+    margin: 0 auto;
+}
+.main .yeshu ul li{
+    cursor: pointer;
+    float: left;
+}
+.main .yeshu ul li a{
+    background: rgb(227, 218, 208) none repeat scroll 0 0;
+    border-radius: 3px;
+    color: rgb(107, 83, 63);
+    cursor: pointer;
+    line-height: 25px;
+    margin-right: 5px;
+    padding: 9px 11px 8px;
+    text-decoration: none;
+}
+.main .yeshu .dangqian{
+    border: medium none;
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 1px 11px 0;
+    margin-top: 5px;
+}
+.main .yeshu ul li a:hover{
+    background:rgb(236,231,221);
+}
+.main .main_right{
+    width: 300px;
+    float: right;
+
+}
+.main .main_right ul{
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    width: 300px;
+}
+.main .main_right ul li{
+    display: block;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    text-indent: 23px;
+    width: 300px;
+    border-bottom: 1px dotted #d5d5c4;
+}
+.main .main_right .xuan a:hover{
+    color: #ed585c;
+}

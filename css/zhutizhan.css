@@ -1,0 +1,173 @@
+/*main*/
+.main{
+    margin: 30px auto 0;
+    width: 940px;
+    overflow: hidden;
+}
+.main_1{
+    background-color: #f4f0ec;
+    height: 45px;
+    width: 940px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.main_1 .zhuti{
+    float: left;
+    font-size: 14px;
+    height: 15px;
+    margin: 0;
+    padding-top: 15px;
+    width: 550px;
+    padding-left: 5px;
+}
+.main_1 .zhuti li{
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-right: 1px dotted #d5d5c4;
+}
+.main_1 .zhuti li span{
+    display: block;
+    height: 15px;
+    margin: 0 14px;
+}
+.main_1 .zhuti .wenzhang a:hover{
+    text-decoration: underline;
+    color: #ed585c;
+}
+.main .main_left{
+    float: left;
+    width: 600px;
+}
+.main .main_left h2{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.main .main_left .xiangxi{
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(100, 100, 100, 0.3);
+    float: left;
+    padding-top: 15px;
+    width: 290px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.main .main_left .xiangxi .tupian{
+    float: left;
+    height: 70px;
+    margin: 0 15px 15px;
+    width: 70px;
+}
+.main .main_left .xiangxi .tupian img{
+    height: 70px;
+    width: 70px;
+}
+.main .main_left .xiangxi h3{
+    font-size: 14px;
+    height: 20px;
+    overflow: hidden;
+    padding-bottom: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 185px;
+}
+.main .main_left .xiangxi h3 a:hover{
+    text-decoration: underline;
+    color: #ed585c;
+}
+.main .main_left .xiangxi p{
+    color: #999;
+    float: left;
+    height: 40px;
+    line-height: 160%;
+    overflow: hidden;
+    width: 185px;
+}
+.main .main_left .xiangxi .shuzi{
+    background: #fafafa none repeat scroll 0 0;
+    border-top: 1px solid #f6f6f6;
+    float: left;
+    height: 40px;
+    text-align: right;
+    width: 290px;
+    border-radius: 0 0 3px 3px;
+}
+.main .main_left .xiangxi .shuzi span{
+    line-height: 40px;
+    padding-right: 20px;
+}
+.main .main_left .xiangxi .shuzi span a:hover{
+    text-decoration: underline;
+    color: #ed585c;
+}
+.main .main_right{
+    float: right;
+    width: 300px;
+}
+.main .main_right h2{
+    font-size: 16px;
+}
+.main .main_right h2 .gengduo{
+    color: #999;
+    display: inline-block;
+    height: 11px;
+    line-height: 11px;
+    font-size: 12px;
+}
+.main .main_right h2 .gengduo a:hover{
+    text-decoration: underline;
+    color: #ed585c;
+}
+.main .main_right .xijie{
+    border-bottom: 1px dotted #e7e7d9;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.main .main_right .xijie .xiaotu{
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    width: 70px;
+    margin-right: 10px;
+}
+.main .main_right .xijie .xiaotu img{
+    height: 70px;
+    width: 70px;
+}
+.main .main_right .xijie h3{
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    line-height: 170%;
+    margin-bottom: 7px;
+    overflow: hidden;
+    width: 220px;
+}
+.main .main_right .xijie .yuedu{
+    color: #999;
+    display: inline-block;
+    height: 11px;
+    line-height: 11px;
+    border-right: 1px dotted #c0c0c0;
+    padding-right: 5px;
+}
+.main .main_right .xijie .zan{
+    padding-left: 5px;
+    color: #999;
+    display: inline-block;
+    height: 11px;
+    line-height: 11px;
+}
+.main .main_right .xijie p{
+    color: #999;
+    float: left;
+    margin-top: 7px;
+    width: 220px;
+}
+.main .main_right .xijie a:hover{
+    text-decoration: underline;
+    color: #ed585c;
+}
+/*main*/

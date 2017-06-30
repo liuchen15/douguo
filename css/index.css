@@ -1,0 +1,610 @@
+/*banner*/
+.banner{
+    height: 250px;
+    overflow: hidden;
+    width: 940px;
+    margin: 30px auto 0;
+    position: relative;
+}
+.banner .banner_top{
+    overflow: hidden;
+    width: 940px;
+    height: 220px;
+    position: relative;
+}
+.banner .banner_top .list{
+    margin-left: 120px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 3500px;
+    left: -1400px;
+}
+.banner .banner_top .list li{
+    float: left;
+    width: 700px;
+    height:220px;
+}
+.banner .top_left{
+    cursor: pointer;
+    height: 220px;
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    width: 120px;
+    z-index: 9;
+    background: rgb(0, 0, 0) url("../images/balefrig.png") no-repeat scroll 0 0;
+    left:0;
+    top:0;
+    background-position: 46px 80px;
+}
+.banner .top_right{
+    cursor: pointer;
+    height: 220px;
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    width: 120px;
+    z-index: 9;
+    background: rgb(0, 0, 0) url("../images/balefrig.png") no-repeat scroll 0 0;
+    right: 0;
+    top: 0;
+    background-position: -121px 80px;
+}
+.banner .banner_bottom{
+    height: 30px;
+    overflow: visible;
+    position: absolute;
+    right: 420px;
+    z-index: 90;
+}
+.banner .banner_bottom ul{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.banner .banner_bottom ul li{
+    background: rgb(198, 198, 198) none repeat scroll 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+    height: 10px;
+    margin-right: 8px;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 10px;
+}
+.banner .banner_bottom ul .yanse{
+    background: rgb(111, 191, 177) none repeat scroll 0 0;
+}
+/*banner*/
+/*main*/
+.main{
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .main_top{
+    width: 940px;
+    overflow: hidden;
+}
+.main .main_top .hao{
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 0 10px;
+}
+.main .main_top  a{
+    color: rgb(18, 147, 124);
+    line-height: 150%;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+.main .main_top .wenzi a{
+    font-size: 16px;
+}
+.main .main_top .hao a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main .main_top .hao a{
+    font-size: 12px;
+}
+.main .main_top .wenzi{
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 0 10px;
+}
+.main .main_top .wenzi a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main .main_top img{
+    width: 220px;
+    height: 220px;
+}
+.main .main_top .zhanshi{
+    overflow: hidden;
+    width: 940px;
+}
+.main .main_top .zhanshi .xijie{
+    float: left;
+    height: 278px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    width: 220px;
+    z-index: 1;
+}
+.main .main_top .zhanshi .xijie .xia{
+    height: 58px;
+    width: 220px;
+}
+.main .main_top .zhanshi .xijie .xia .shang{
+    font-size: 14px;
+    height: 21px;
+    line-height: 150%;
+    overflow: hidden;
+    padding: 6px 10px 3px 0;
+    width: 210px;
+}
+.main .main_top .zhanshi .xijie .xia .dixia{
+    color: rgb(153, 153, 153);
+    display: inline-block;
+    height: 32px;
+    line-height: 150%;
+    overflow: hidden;
+    padding: 0 10px 0 0;
+    width: 210px;
+}
+.main .main_top .zhanshi .xijie .xia .dixia a:hover{
+    text-decoration: underline;
+}
+.main .main_top .zhanshi .xijie .xia .shang a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main .main_top .zhanshi .xijie .xia .dixia .daC{
+    display: inline-block;
+    height: 16px;
+    margin-left: 3px;
+    vertical-align: middle;
+    width: 16px;
+    background: transparent url("../images/level_icon.png") no-repeat scroll 0 -22px;
+    margin-bottom: 0;
+}
+.main .main_top .zhanshi .xijie .xia .shang .ion{
+    background: rgb(255, 168, 16) none repeat scroll 0 0;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    height: 18px;
+    line-height: 17px;
+    margin-right: 6px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(219, 71, 25, 0.2);
+    width: 32px;
+}
+.main .main_top .xiaoliang{
+    width: 960px;
+    overflow: hidden;
+}
+.main .main_top .xiaoliang .reirong{
+    float: left;
+    height: 338px;
+    margin: 0 14px 16px 0;
+    position: relative;
+    width: 224px;
+}
+.main .main_top .xiaoliang .reirong .reirong2 h3{
+    color: rgb(18, 147, 124);
+    font-size: 14px;
+    height: 40px;
+    margin: 14px 0 8px;
+    overflow: hidden;
+    font-weight: normal;
+}
+.main .main_top .xiaoliang .reirong .reirong2 h3:hover{
+    color: rgb(236, 40, 36);
+    text-decoration: underline;
+}
+.main .main_top .xiaoliang .reirong .reirong2 span{
+    color: rgb(235, 38, 36);
+    font-size: 16px;
+}
+.main .main_top .xiaoliang .reirong .reirong3{
+    bottom: 8px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    left: 5px;
+    position: absolute;
+}
+.main .main_top .xiaoliang .reirong .reirong4{
+    bottom: 8px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    right: 5px;
+    position: absolute;
+}
+.main .main_top .xiaoliang .reirong del{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    padding-left: 18px;
+}
+/*main_left*/
+.main_left{
+    width: 600px;
+    float: left;
+    overflow: hidden;
+}
+.main_left>div{
+    width: 600px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.main_left .main_left_1 h2{
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+.main_left .main_left_1 h2 span{
+    font-size: 12px;
+    line-height: 150%;
+}
+.main_left .main_left_1 ul{
+    background: rgb(244, 240, 236) none repeat scroll 0 0;
+    padding: 20px 0 0 30px;
+    overflow: hidden;
+}
+.main_left .main_left_1 ul li{
+    float: left;
+    height: 90px;
+    line-height: 18px;
+    margin: 0 20px 11px 0;
+    overflow: hidden;
+    text-align: center;
+    width: 60px;
+}
+.main_left .main_left_1 ul li img{
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    width: 60px;
+ }
+.main_left .main_left_1 ul li a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_2 h3{
+    color: rgb(51, 51, 51);
+    line-height: 150%;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.main_left .main_left_2 h3 a{
+    font-size: 12px;
+}
+.main_left .main_left_2 .xinwen{
+    margin-bottom: 10px;
+    width: 600px;
+    overflow: hidden;
+}
+.main_left .main_left_2 .xinwen>a{
+    display: block;
+    float: left;
+    height: 110px;
+    margin-right: 20px;
+    width: 140px;
+    background: url("../images/0670b0f6843cddb42e03d4baf98a4332.jpg")no-repeat scroll 0 -20px / 140px auto;
+}
+.main_left .main_left_2 .xinwen h3 a{
+    font-size: 14px;
+}
+.main_left .main_left_2 .xinwen h3 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_2 .xinwen p{
+    color: rgb(153, 153, 153);
+    float: left;
+    height: 78px;
+    line-height: 20px;
+    overflow: hidden;
+    text-indent: 2em;
+    width: 440px
+}
+.main_left .main_left_2 ul{
+    overflow: hidden;
+}
+.main_left .main_left_2 ul li{
+    background: transparent url("../images/ic_point.png") no-repeat scroll 0 14px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 290px;
+}
+.main_left .main_left_2 ul li a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_3>h3{
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: rgb(51, 51, 51);
+}
+.main_left .main_left_3{
+    width: 630px;
+}
+.main_left .main_left_3 span{
+    font-size: 12px;
+    line-height: 150%;
+}
+.main_left .main_left_2 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_3 span a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_3 .zhanshi1{
+    float: left;
+    height: 266px;
+    overflow: hidden;
+    width: 180px;
+    margin-right: 30px;
+}
+.main_left .main_left_3 .zhanshi1 a img{
+    display: block;
+    height: 180px;
+    margin: 0 0 6px;
+    width: 180px;
+}
+.main_left .main_left_3 .zhanshi1 h3{
+    height: 20px;
+    line-height: 160%;
+    overflow: hidden;
+    padding: 0 0 2px;
+    width: 180px;
+    font-size: 14px;
+    margin: 0;
+}
+.main_left .main_left_3 .zhanshi1 h3 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_3 .zhanshi1 span{
+    color: rgb(153, 153, 153);
+    display: inline-block;
+    height: 20px;
+    line-height: 150%;
+    overflow: hidden;
+    padding: 0;
+    width: 180px;
+}
+.main_left .main_left_4 .zhanshi2{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    float: left;
+    overflow: hidden;
+    width: 600px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.main_left .main_left_4 .zhanshi2 a img{
+    display: block;
+    float: left;
+    height: 100px;
+    margin: 0 10px 0 0;
+    width: 100px;
+}
+.main_left .main_left_4 .zhanshi2 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_4 span a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_left .main_left_4 .zhanshi2 .zhanshi2_left{
+    float: left;
+    overflow: hidden;
+    width: 280px;
+}
+.main_left .main_left_4 .zhanshi2 .zhanshi2_right{
+    float: right;
+    height: 100px;
+    width: 320px;
+    overflow: hidden;
+}
+.main_left .main_left_4 .zhanshi2 .zhanshi2_right a{
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+/*main_left*/
+/*main_right*/
+.main .main_right{
+    width: 300px;
+    float: right;
+}
+.main .main_right>div{
+    margin-bottom: 26px;
+    width: 300px;
+}
+.main .main_right .h3{
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: rgb(51, 51, 51);
+    font-weight: normal;
+}
+.main .main_right .span{
+    font-size: 12px;
+    line-height: 150%;
+}
+.main .main_right .a{
+    font-size: 12px;
+    line-height: 150%;
+}
+.main_right .main_right_1 h3 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_right .main_right_1 ul{
+    background: rgb(244, 240, 236) none repeat scroll 0 0;
+    padding: 7px 16px 6px;
+    overflow: hidden;
+}
+.main_right .main_right_1 ul a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_right .main_right_1 ul li{
+    background: transparent url("../images/ic_point.png") no-repeat scroll 2px 19px;
+    float: left;
+    height: 41px;
+    line-height: 41px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 258px;
+    border-bottom: 1px dotted rgb(213, 213, 196);
+}
+.main_right .main_right_2 h3 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_right .main_right_2 .dongtai{
+    height: 156px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+.main_right .main_right_3 h3 a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main_right .main_right_3{
+    position: relative;
+    width: 300px;
+    margin-bottom: 26px;
+}
+.main_right .main_right_3 .shenqing{
+    background-color: rgb(111, 191, 177);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+.main_right .main_right_3 .daren{
+    background: rgb(244, 240, 236) none repeat scroll 0 0;
+    padding: 0 16px;
+    overflow: hidden;
+}
+.main_right .main_right_3 .daren li{
+    padding: 15px 0 7px;
+    position: relative;
+    width: 268px;
+    border-bottom: 1px dotted rgb(213, 213, 196);
+    overflow: hidden;
+}
+.main_right .main_right_3 .daren li>a{
+    display: block;
+    background: transparent url("../images/addgz.png") no-repeat scroll -260px 0;
+    height: 24px;
+    width: 70px;
+    margin-top: 12px;
+    float: right;
+}
+.main_right .main_right_3 .daren li>div{
+    float: left;
+    margin-right: 12px;
+    width: 50px;
+}
+.main_right .main_right_3 .daren li>h4{
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    padding-bottom: 2px;
+    width: 130px;
+}
+.main_right .main_right_3 .daren li>h4>a:hover{
+    text-decoration: underline;
+}
+.main_right .main_right_3 .daren li>h4 .xiaoC{
+    display: inline-block;
+    height: 16px;
+    margin-left: 3px;
+    vertical-align: middle;
+    width: 16px;
+    background: transparent url("../images/level_icon.png") no-repeat scroll 0 -22px;
+}
+.main_right .main_right_3 .daren li>span{
+    color: rgb(153, 153, 153);
+    display: block;
+    float: left;
+    line-height: 160%;
+    width: 130px;
+}
+.main_right .main_right_3 .daren li>a:hover{
+    color: rgb(237,88,92);
+    background-position: -340px 0;
+}
+.main_right .main_right_3 .shenqing:hover{
+    background:rgb(140,204,193) none repeat scroll 0 0;
+}
+.main_right .main_right_4 li{
+    line-height: 30px;
+    width: 300px;
+}
+.main_right .main_right_4 li a:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline;
+}
+.main_right .main_right_5 h3 a:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline;
+}
+.main_right .main_right_5 ul{
+    overflow: hidden;
+    width: 250px;
+}
+.main_right .main_right_5 ul li{
+    float: left;
+    text-align: center;
+    width: 66px;
+    margin-right: 20px;
+}
+.main_right .main_right_5 ul li span{
+    background: transparent url("../images/tinyapp.png") no-repeat scroll 0 0;
+    display: block;
+    height: 60px;
+    margin-bottom: 7px;
+    width: 60px;
+}
+.main_right .main_right_5 ul li .beijing1{
+    background-position: 0 -44px;
+}
+.main_right .main_right_5 ul li .beijing2{
+    background-position: 0 -114px;
+}
+.main_right .main_right_5 ul li .beijing3{
+    background-position: 0 -184px;
+}
+.main_right .main_right_5 ul li a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+/*main_right*/
+/*main*/

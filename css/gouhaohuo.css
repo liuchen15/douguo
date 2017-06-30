@@ -1,0 +1,126 @@
+/*main*/
+.main{
+    width: 980px;
+    overflow: hidden;
+    margin: 30px auto 0;
+}
+.main .main_top{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.main .main_top .top_left{
+    border: 1px solid rgb(240, 240, 240);
+    float: left;
+    height: 230px;
+    margin-right: 16px;
+    overflow: hidden;
+    width: 620px;
+}
+.main .main_top .top_left img{
+    margin-right: 20px;
+    width: 620px;
+    border: 0 none;
+}
+.main .main_top .top_right{
+    border: 1px solid rgb(240, 240, 240);
+    float: left;
+    height: 110px;
+    overflow: hidden;
+    width: 300px;
+}
+.main .main_top .top_right img{
+    width: 300px
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.main .main_bottom{
+    overflow: hidden;
+    width: 980px;
+}
+.main .main_bottom .xijie{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border: 1px solid rgb(240, 240, 240);
+    float: left;
+    height: 338px;
+    margin: 0 14px 16px 0;
+    position: relative;
+    width: 224px;
+}
+.main .main_bottom .xijie .tupian{
+    height: 224px;
+    overflow: hidden;
+    position: relative;
+}
+.main .main_bottom .xijie .shengyu{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 224px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    background-color: gray;
+    line-height: 30px;
+    opacity: 0.7;
+    display: none;
+}
+.main .main_bottom .xijie .shengyu span{
+    color: red;
+}
+.main .main_bottom .xijie .shengyu:hover{
+    opacity: 1;
+}
+.main .main_bottom .xijie .shengyu a{
+    color: white;
+}
+.main .main_bottom .xijie .tupian img{
+    width: 224px;
+}
+.main .main_bottom .xijie .xinxi{
+    padding: 0 12px 0 15px;
+    position: relative;
+}
+.main .main_bottom .xijie .xinxi h3{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 22px;
+    margin: 12px 0 8px;
+    overflow: hidden;
+}
+.main .main_bottom .xijie .xinxi h3:hover{
+    color: rgb(236,40,36);
+}
+.main .main_bottom .xijie .xinxi .jiage{
+    left: 15px;
+    position: absolute;
+    top: 46px;
+    text-align: right;
+}
+.main .main_bottom .xijie .xinxi .jiage span{
+    color: rgb(235, 38, 36);
+    font-size: 16px;
+}
+.main .main_bottom .yueshou{
+    bottom: 8px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    left: 15px;
+    position: absolute;
+}
+.main .main_bottom .yunfei{
+    bottom: 8px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+}
+.main .main_bottom .xijie .xinxi .jiage del{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    padding-left: 18px;
+}
+/*main*/

@@ -1,0 +1,286 @@
+/*main*/
+.main{
+    margin: 30px auto 0;
+    width: 940px;
+    overflow: hidden;
+}
+.main .jingxuan{
+    background-color: #f4f0ec;
+    height: 30px;
+    padding-top: 15px;
+    width: 940px;
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.main .jingxuan ul{
+    font-size: 14px;
+    height: 15px;
+    margin: 0;
+    width: 550px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.main .jingxuan li{
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-right: 1px dotted #d5d5c4;
+}
+.main .jingxuan li span{
+    display: block;
+    height: 15px;
+    margin: 0 14px;
+}
+.main .jingxuan li a:hover{
+    text-decoration: underline;
+    color: rgb(237,88,92);
+}
+.main .caishi{
+    background: #f4f0ec none repeat scroll 0 0;
+    height: 180px;
+    width: 940px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+    padding-top: 20px;
+}
+.main .caishi .fenlei2{
+    padding: 4px 0 0 22px;
+    width: 213px;
+    float: left;
+    height: 156px;
+    overflow: hidden;
+    border-right: 1px dotted #e4e4e4;
+}
+.main .caishi .fenlei{
+    float: left;
+    height: 156px;
+    overflow: hidden;
+    padding: 4px 0 0 15px;
+    width: 210px;
+    border-right: 1px dotted #e4e4e4;
+}
+.main .caishi h2{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    width: 188px;
+}
+.main .caishi ul{
+    float: left;
+    margin-top: 7px;
+    overflow: hidden;
+    width: 210px;
+}
+.main .caishi .fenlei2 li{
+    float: left;
+    height: 20px;
+    line-height: 23px;
+    overflow: hidden;
+    padding: 3px 0;
+    text-align: left;
+    width: 52px;
+}
+.main .caishi .fenlei li{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 3px 0;
+    width: 70px;
+}
+.main .caishi .fenlei2 li a{
+    padding: 4px 2px 4px 3px;
+}
+.main .caishi .fenlei li a{
+    padding: 4px 2px 4px 3px;
+}
+.main .caishi .fenlei2 li a:hover{
+    color: white;
+    padding: 4px 3px;
+    background-color: #0c8571;
+    text-decoration: none;
+}
+.main .caishi .fenlei li a:hover{
+    color: white;
+    padding: 4px 3px;
+    background-color: #0c8571;
+    text-decoration: none;
+}
+.main .sixiang{
+    margin-bottom: 13px;
+}
+.main .sixiang h2{
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    margin: 0;
+}
+.main .sixiang h2 a:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline;
+}
+.main .sixiang h4{
+    font: 24px "Î¢ÈíÑÅºÚ","YaHei",Arial,Helvetica,sans-serif;
+}
+.main .zhanshi{
+    margin: auto;
+    width: 960px;
+    overflow: hidden;
+}
+.main .zhanshi .xiangxi{
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.1);
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 300px;
+}
+.main .zhanshi .xiangxi .tupian{
+    display: block;
+    height: 200px;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+.main .zhanshi .xiangxi .tupian img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    height: 200px;
+    width: 300px;
+    border: 0 none;
+}
+.main .zhanshi .xiangxi .wenzi{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 15px;
+    position: relative;
+    width: 270px;
+}
+.main .zhanshi .xiangxi .wenzi .biaoti{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 214px;
+}
+.main .zhanshi .xiangxi .wenzi .biaoti:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline;
+}
+.main .zhanshi .xiangxi .wenzi .liulan{
+    color: rgb(106, 106, 106);
+    font-size: 12px;
+    line-height: 24px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-right: 62px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main .zhanshi .xiangxi .wenzi .xiaotu{
+    display: block;
+    height: 82px;
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    top: -14px;
+    width: 60px;
+    color: rgb(106, 106, 106);
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main .zhanshi .xiangxi .wenzi .xiaotu:hover{
+    text-decoration: underline;
+}
+.main .zhanshi .xiangxi .wenzi .xiaotu img{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 46px;
+    display: block;
+    height: 46px;
+    margin: auto;
+    width: 46px;
+}
+.main .zhanshi .xiangxi .wenzi .Cjia{
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    width: 16px;
+}
+.main .zhanshi .xiangxi .wenzi .Cjia .xianshi{
+    display: inline-block;
+    height: 16px;
+    margin-left: 3px;
+    vertical-align: middle;
+    width: 16px;
+    background: transparent url("../images/level_icon.png") no-repeat scroll 0 -22px;
+}
+.main .zhanshi .xiangxi .wenzi .kongge{
+    height: 25px;
+    overflow: hidden;
+}
+.main .yeshu{
+    height: 30px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.main .yeshu ul{
+    height: 30px;
+    text-align: center;
+    width: 100%;
+}
+.main .yeshu .juzhong{
+    width: 300px;
+    margin: 0 auto;
+}
+.main .yeshu ul li{
+    cursor: pointer;
+    float: left;
+}
+.main .yeshu ul li a{
+    background: rgb(227, 218, 208) none repeat scroll 0 0;
+    border-radius: 3px;
+    color: rgb(107, 83, 63);
+    cursor: pointer;
+    line-height: 25px;
+    margin-right: 5px;
+    padding: 9px 11px 8px;
+    text-decoration: none;
+}
+.main .yeshu .dangqian{
+    border: medium none;
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 1px 11px 0;
+    margin-top: 5px;
+}
+.main .yeshu ul li a:hover{
+    background:rgb(236,231,221);
+}
+.main .weizhi{
+    text-align: left;
+    color: rgb(153, 153, 153);
+    padding-top: 10px;
+}
+.main .weizhi a:hover{
+    color: rgb(237,88,92);
+    text-decoration: underline;
+}
+/*main*/

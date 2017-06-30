@@ -1,0 +1,838 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜谱</title>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/caipu.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/fangda.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header_left">
+        <a href=""></a>
+    </div>
+    <div class="header_right">
+        <div class="denglu">
+            <a href="">登录</a>
+            <span><img src="images/tiao.jpg" alt=""/></span>
+            <a href="">注册</a>
+        </div>
+        <div class="fangshi">
+            <a href="" class="qq">QQ登录</a>
+            <a href="" class="xinlang">新浪微博</a>
+        </div>
+    </div>
+</div>
+<!--header-->
+<!--nav-->
+<div class="nav">
+    <div class="hcent">
+        <div class="hcent_left">
+            <ul style="font-size: 14px">
+                <li><a href="index.html"><span>首页</span></a></li>
+                <li class="xt">
+                    <a href="caipu.html">
+                        <span class="dangqianye">菜谱</span>
+                        <a href="" class="bsanjiao"></a>
+                    </a>
+                    <div class="dingwei">
+                        <div class="top"></div>
+                        <div class="zuopin">
+                            <div class="baisanjiao"></div>
+                            <div class="jingxuan">
+                                <a href="caipu.html"><span class="jx"></span>精选</a>
+                                <a href=""><span class="zp"></span>作品</a>
+                                <a href=""><span class="cd"></span>菜单</a>
+                                <a href=""><span class="ph"></span>排行榜</a>
+                            </div>
+                            <div class="zuihou">
+                                <div class="huise">
+                                    <a href="">食材</a>
+                                </div>
+                                <div class="xijie">
+                                    <a href="">猪肉</a>
+                                    <a href="">羊肉</a>
+                                    <a href="">鸡肉</a>
+                                    <a href="">牛肉</a>
+                                    <a href="">鱼</a>
+                                    <a href="">蔬菜</a>
+                                    <a href="">鲜果</a>
+                                    <a href="">虾</a>
+                                    <a href="">杂粮</a>
+                                    <a href="">更多>></a>
+                                </div>
+                            </div>
+                            <div class="zuihou">
+                                <div class="huise">
+                                    <a href="">分类</a>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>菜式</span>
+                                    <div class="xiangxi">
+                                        <a href="">家常菜</a>
+                                        <a href="">下饭菜</a>
+                                        <a href="">甜品</a>
+                                        <a href="">肉类</a>
+                                        <a href="">主食</a>
+                                        <a href="">私家菜</a>
+                                        <a href="">凉菜</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>烘培</span>
+                                    <div class="xiangxi">
+                                        <a href="">面包</a>
+                                        <a href="">饼干</a>
+                                        <a href="">戚风蛋糕</a>
+                                        <a href="">泡芙</a>
+                                        <a href="">蛋糕卷</a>
+                                        <a href="">杯子蛋糕</a>
+                                        <a href="">芝士蛋糕</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>功效</span>
+                                    <div class="xiangxi">
+                                        <a href="">补硒食谱</a>
+                                        <a href="">补钙食谱</a>
+                                        <a href="">补锌食谱</a>
+                                        <a href="">补铁食谱</a>
+                                        <a href="">补碘食谱</a>
+                                        <a href="">对抗雾霾</a>
+                                        <a href="">防辐射</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="zhongjian">
+                                    <span>场景</span>
+                                    <div class="xiangxi">
+                                        <a href="">早餐食谱</a>
+                                        <a href="">午餐</a>
+                                        <a href="">下午茶</a>
+                                        <a href="">晚餐</a>
+                                        <a href="">宵夜</a>
+                                        <a href="">单身食谱</a>
+                                        <a href="">二人世界</a>
+                                        <a href="">更多>></a>
+                                    </div>
+                                </div>
+                                <div class="dibu"><a href="">查看全部分类</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="xieshipai.html"><span>写食派</span></a>
+                </li>
+                <li><a href="gouhaohuo.html"><span>购好货</span></a>
+                    <div class="Hot"></div></li>
+                <li><a href="zhutizhan.html"><span>主题站</span></a></li>
+                <li style="border: 0"><a href="huodong.html"><span>活动</span></a></li>
+            </ul>
+        </div>
+        <div class="hcent_center">
+            <input  type="text" value="搜索菜谱、菜单、食材、用户" class="wenben" style="border-right: 0" onfocus="if(this.value =='搜索菜谱、菜单、食材、用户') this.value ='';"onblur="if(this.value =='') this.value ='搜索菜谱、菜单、食材、用户';"/>
+            <input type="button" class="anniu"/>
+        </div>
+        <div class="hcent_right">
+            <a href="">发布</a>
+            <div class="fabu" style="display: none">
+                <span></span>
+                <p>
+                    <a href="">发布菜单</a>
+                    <a href="">创建菜单</a>
+                    <a href="">上传美食日记</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--nav-->
+<!--main-->
+<div class="main">
+    <div class="jingxuan">
+        <ul>
+            <li><a href=""><span style="color: #333;font-weight: bold;">精选</span></a></li>
+            <li><a href=""><span>分类</span></a></li>
+            <li><a href=""><span>食材</span></a></li>
+            <li><a href=""><span>作品</span></a></li>
+            <li><a href=""><span>菜单</span></a></li>
+            <li style="border: 0"><a href=""><span>排行榜</span></a></li>
+        </ul>
+    </div>
+    <div class="caishi">
+            <div class="fenlei2">
+            <h2>菜式</h2>
+            <ul>
+                <li>
+                    <a href="">下饭菜</a>
+                </li>
+                <li>
+                    <a href="">甜品</a>
+                </li>
+                <li>
+                    <a href="">肉类</a>
+                </li>
+                <li>
+                    <a href="">主食</a>
+                </li>
+                <li>
+                    <a href="">私家菜</a>
+                </li>
+                <li>
+                    <a href="">凉菜</a>
+                </li>
+                <li>
+                    <a href="">烘焙</a>
+                </li>
+                <li>
+                    <a href="">豆制品</a>
+                </li>
+                <li>
+                    <a href="">煲汤</a>
+                </li>
+                <li>
+                    <a href="">酒</a>
+                </li>
+                <li>
+                    <a href="">海鲜</a>
+                </li>
+                <li>
+                    <a href="">水产</a>
+                </li>
+                <li>
+                    <a href="">禽类</a>
+                </li>
+                <li>
+                    <a href="">蛋类</a>
+                </li>
+                <li>
+                    <a href="">冰品</a>
+                </li>
+                <li>
+                    <a href="">. . .</a>
+                </li>
+            </ul>
+        </div>
+            <div class="fenlei">
+                <h2>烘培</h2>
+                <ul>
+                    <li>
+                        <a href="">面包</a>
+                    </li>
+                    <li>
+                        <a href="">饼干</a>
+                    </li>
+                    <li>
+                        <a href="">戚风蛋糕</a>
+                    </li>
+                    <li>
+                        <a href="">泡芙</a>
+                    </li>
+                    <li>
+                        <a href="">蛋糕卷</a>
+                    </li>
+                    <li>
+                        <a href="">杯子蛋糕</a>
+                    </li>
+                    <li>
+                        <a href="">芝士蛋糕</a>
+                    </li>
+                    <li>
+                        <a href="">马芬</a>
+                    </li>
+                    <li>
+                        <a href="">曲奇</a>
+                    </li>
+                    <li>
+                        <a href="">吐司</a>
+                    </li>
+                    <li>
+                        <a href="">海绵蛋糕</a>
+                    </li>
+                    <li>
+                        <a href="">. . .</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fenlei">
+                <h2>功效</h2>
+                <ul>
+                    <li>
+                        <a href="">补硒食谱</a>
+                    </li>
+                    <li>
+                        <a href="">补钙食谱</a>
+                    </li>
+                    <li>
+                        <a href="">补锌食谱</a>
+                    </li>
+                    <li>
+                        <a href="">补铁食谱</a>
+                    </li>
+                    <li>
+                        <a href="">补碘食谱</a>
+                    </li>
+                    <li>
+                        <a href="">对抗雾霾</a>
+                    </li>
+                    <li>
+                        <a href="">防辐射</a>
+                    </li>
+                    <li>
+                        <a href="">润肠通便</a>
+                    </li>
+                    <li>
+                        <a href="">明目</a>
+                    </li>
+                    <li>
+                        <a href="">润肺止咳</a>
+                    </li>
+                    <li>
+                        <a href="">痛经</a>
+                    </li>
+                    <li>
+                        <a href="">. . .</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fenlei" style="border: 0">
+                <h2>场景</h2>
+                <ul>
+                    <li>
+                        <a href="">早餐食谱</a>
+                    </li>
+                    <li>
+                        <a href="">午餐</a>
+                    </li>
+                    <li>
+                        <a href="">下午茶</a>
+                    </li>
+                    <li>
+                        <a href="">晚餐</a>
+                    </li>
+                    <li>
+                        <a href="">宵夜</a>
+                    </li>
+                    <li>
+                        <a href="">单身食谱</a>
+                    </li>
+                    <li>
+                        <a href="">二人世界</a>
+                    </li>
+                    <li>
+                        <a href="">朋友聚餐</a>
+                    </li>
+                    <li>
+                        <a href="">户外野炊</a>
+                    </li>
+                    <li>
+                        <a href="">生日聚会</a>
+                    </li>
+                    <li>
+                        <a href="">一家三口</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div class="sixiang">
+        <h2><a href="">查看最新菜谱>></a></h2>
+        <h4>吃饭不积极，思想有问题</h4>
+    </div>
+    <div class="zhanshi">
+        <div class="xiangxi">
+        <a href="hutaitai.html" class="tupian"><img src="images/400x266_cac5b8f33a099692eb38a11fbe15c737.jpeg" alt=""/></a>
+        <div class="wenzi">
+            <a href="" class="biaoti">春日祛湿养生汤</a>
+            <p class="liulan">10568浏览 · 579收藏 · 6已学做</p>
+            <a class="xiaotu" href="">
+                <img src="images/70_u60465314903635161237.jpeg">
+                胡太太私厨
+            </a>
+                <span class="Cjia">
+                </span>
+            <div class="kongge"></div>
+        </div>
+    </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_d2f8f83a4eb94d156b9eafe54331ac12.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">【醉虾】上海本帮菜★摄入水...</a>
+                <p class="liulan">5405浏览 · 486收藏 · 9已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u65020868733420113222.jpg">
+                    蜜桃爱烘焙
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_7daeecfe51dc1bbe6063936f7afbd294.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">春意盎然【韭菜鸡蛋水煎饺】</a>
+                <p class="liulan">5491浏览 · 509收藏 · 7已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u4095206075346702231831.jpg">
+                    糖小饼
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_752fdfd92bee4b3cbacdd1cc232216dd.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">蘸酱菜</a>
+                <p class="liulan">2447浏览 · 293收藏 · 7已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u55968356313010202031.jpg">
+                    枭笑
+                </a>
+                <span class="Cjia">
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_db03d734267962c66ab5a99a984e0db0.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">飞饼香蕉卷</a>
+                <p class="liulan">9180浏览 · 1167收藏 · 10已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u7203775584450309091439.jpg">
+                    土豆丝卷饼
+                </a>
+                <span class="Cjia">
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_1ad84cbdcddd8ef81eeeeb8273e06b27.jpeg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">米糕</a>
+                <p class="liulan">12534浏览 · 1280收藏 · 7已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u53271733983097154452.jpeg">
+                    年轻的心hx
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_7b320283e1aca4e6debfffd94817afda.jpeg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">海苔肉松蛋糕</a>
+                <p class="liulan">5158浏览 · 948收藏 · 7已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u1865258950286163522.jpg">
+                    海燕的手艺
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_93fd10b03d4a15608374131ee0707853.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">春饼合菜</a>
+                <p class="liulan">17377浏览 · 1716收藏 · 6已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u63008024671523170651.jpeg">
+                    超食控
+                </a>
+                <span class="Cjia">
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_e7025064037d626fc8cd3e9375537658.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">玛格丽特饼干</a>
+                <p class="liulan">3866浏览 · 457收藏 · 8已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u49238701216814171315.jpg">
+                    馨→_→林
+                </a>
+                <span class="Cjia">
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_6ec6c18efbeb447b9fec27e598d09f0a.jpeg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">简单易做的葱油面</a>
+                <p class="liulan">14086浏览 · 1821收藏 · 14已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u06526236922721113554.jpeg">
+                    文小静一
+                </a>
+                <span class="Cjia">
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_988865c3ef1945a6b709a04c15e9e569.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">香橙壸</a>
+                <p class="liulan">6491浏览 · 487收藏 · 10已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u40031052439645204505.jpg">
+                    大润小厨
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+        <a href="" class="tupian"><img src="images/400x266_28af9e30be04d5cac099a1860b3ab568.jpg" alt=""/></a>
+        <div class="wenzi">
+            <a href="" class="biaoti">海绵蛋糕</a>
+            <p class="liulan">20326浏览 · 2622收藏 · 6已学做</p>
+            <a class="xiaotu" href="">
+                <img src="images/70_u29460731534711183545.jpg">
+                真馜花
+            </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+            <div class="kongge"></div>
+        </div>
+    </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_6bf1b47e6fa2a0d6bf0e6ec4faf061cf.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">蒜薹小炒</a>
+                <p class="liulan">12151浏览 · 1853收藏 · 7已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u17847891532610222643.jpg">
+                    泥鳅的主食
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_afbd2f17fd59962e13266313ba1967d2.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">蚝油杏鲍菇</a>
+                <p class="liulan">11978浏览 · 1989收藏 · 10已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u19634512124114090415.jpg">
+                    许多心愿
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_42aa0c021f46d61e6f24757ab6d94680.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">飘香土豆饼</a>
+                <p class="liulan">9567浏览 · 1466收藏 · 9已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u21815413893950093136.jpg">
+                    小圆的厨房
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_7013f5d1acfa8b30bad7be248c7fcc47.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">南洋菠萝船炒饭「厨娘物语」</a>
+                <p class="liulan">37263浏览 · 2121收藏 · 15已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u2750708466994402241615.jpg">
+                    厨娘物语BeautyCate
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+        <a href="" class="tupian"><img src="images/400x266_e9d11b9b3db881048a1eea58a3ba7a2e.jpg" alt=""/></a>
+        <div class="wenzi">
+            <a href="" class="biaoti">葱烧蘑菇</a>
+            <p class="liulan">8070浏览 · 1244收藏 · 11已学做</p>
+            <a class="xiaotu" href="">
+                <img src="images/70_u4733106823829711132123.jpg">
+                花青柔懿
+            </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+            <div class="kongge"></div>
+        </div>
+    </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_d74dea8255e707ac98711fe602d24e9f.png" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">香炸藕盒</a>
+                <p class="liulan">142897浏览 · 5515收藏 · 8已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u16481807866235211251.jpeg">
+                    小黠大痴
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_c77568e0a4aab0550cccadfe18d154ef.png" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">[快厨房]草菇鸽蛋烧鲜鱿</a>
+                <p class="liulan">11007浏览 · 1111收藏 · 6已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u61589878429288172946.jpeg">
+                    快厨房InstaChef
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+        <a href="" class="tupian"><img src="images/400x266_5f2c51b9bc31d5d1e4ef1f5e754688fb.jpg" alt=""/></a>
+        <div class="wenzi">
+            <a href="" class="biaoti">喝过一次就念念不忘的猪肚包鸡</a>
+            <p class="liulan">8450浏览 · 930收藏 · 8已学做</p>
+            <a class="xiaotu" href="">
+                <img src="images/70_u57795364371434234324.jpg">
+                蓝胖子不素胖纸
+            </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+            <div class="kongge"></div>
+        </div>
+    </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_08648e293016bd03d12bb7ee0c17c632.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">菊花酥饼</a>
+                <p class="liulan">3045浏览 · 244收藏 · 9已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u09810057131140111724.jpg">
+                    深蓝小米粥
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_3f4e4b0bb77f9e81f82272ba3d9bde55.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">芒果班戟</a>
+                <p class="liulan">4941浏览 · 420收藏 · 6已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u09810057131140111724.jpg">
+                    深蓝小米粥
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_98cd1677d10b9831de18e4658c28e2bc.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">酸酸甜甜，菠萝饭</a>
+                <p class="liulan">7297浏览 · 822收藏 · 6已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u7033505682763903162310.jpg">
+                    sourcehe
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+        <a href="" class="tupian"><img src="images/400x266_8c47842c119732812bdb290a426fb965.jpeg" alt=""/></a>
+        <div class="wenzi">
+            <a href="" class="biaoti">春饼</a>
+            <p class="liulan">34089浏览 · 4312收藏 · 7已学做</p>
+            <a class="xiaotu" href="">
+                <img src="images/70_u88713201505732192711.jpeg">
+                雨泽妈晓琦
+            </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+            <div class="kongge"></div>
+        </div>
+    </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_cfa3f9d4bac5481f7f32fda84f02130c.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">鱼香金针菇</a>
+                <p class="liulan">16865浏览 · 3148收藏 · 8已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u17847891532610222643.jpg">
+                    泥鳅的主食厨房
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+        <a href="" class="tupian"><img src="images/400x266_f886eb4704038eaaa1b9f90b56f905c6.jpg" alt=""/></a>
+        <div class="wenzi">
+            <a href="" class="biaoti">燕麦香蕉</a>
+            <p class="liulan">16189浏览 · 1810收藏 · 6已学做</p>
+            <a class="xiaotu" href="">
+                <img src="images/70_u0310011158506209091419.png">
+                Dream芸_
+            </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+            <div class="kongge"></div>
+        </div>
+    </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_a19191589bdc57e1187f01e125442fe2.jpeg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">好喝的珍珠奶茶</a>
+                <p class="liulan">18707浏览 · 1993收藏 · 7已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u22939015259191094018.jpeg">
+                    媛媛阿朗
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_7db2e159d9a871194de1321f2eb374d5.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">春光饭团</a>
+                <p class="liulan">78801浏览 · 3008收藏 · 11已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u7644208513959210250012.jpg">
+                    桌饭
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_c2cc7ea667c5a482a651a2e7f45a68b1.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">八寸戚风蛋糕</a>
+                <p class="liulan">10568浏览 · 579收藏 · 6已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u22524612433126120109.jpg">
+                    Isabella2015
+                </a>
+                <span class="Cjia">
+                    <a class="xianshi" href=""></a>
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+        <div class="xiangxi">
+            <a href="" class="tupian"><img src="images/400x266_83bc37581833b538f9e39937937fc756.jpg" alt=""/></a>
+            <div class="wenzi">
+                <a href="" class="biaoti">【无烤箱版】黑米蛋糕</a>
+                <p class="liulan">17726浏览 · 2397收藏 · 10已学做</p>
+                <a class="xiaotu" href="">
+                    <img src="images/70_u8293489654861003140832.jpg">
+                    美食达人计划
+                </a>
+                <span class="Cjia">
+                </span>
+                <div class="kongge"></div>
+            </div>
+        </div>
+    </div>
+    <div class="yeshu">
+        <div class="juzhong">
+            <ul>
+                <li class="dangqian">1</li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">下一页</a></li>
+                <li><a href="">尾页</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="weizhi">
+        你当前的位置：
+        <a href="">豆果美食</a>
+        >
+        <a href="">菜谱</a>
+        > 精选菜谱
+    </div>
+</div>
+<!--main-->
+<!--footer-->
+<div class="footer">
+    <div class="guanyu">
+        <a href="">关于豆果</a>
+        ·
+        <a href="">在豆果工作</a>
+        ·
+        <a href="">意见反馈</a>
+        ·
+        <a href="">友情链接</a>
+        ·
+        <a href="">菜谱大全</a>
+    </div>
+    <div class="xinxi">
+        ©2009-2017
+        <a href="">北京豆果信息技术有限公司</a>
+        <a href="">京ICP证111032号</a>
+        京公网安备11010102001133号 京网文[2014]0774-174号 食品流通许可证SP1101061510252413 </div>
+    <div></div>
+</div>
+<!--footer-->
+</body>
+</html>
